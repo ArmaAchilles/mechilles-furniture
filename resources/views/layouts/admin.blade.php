@@ -13,29 +13,17 @@
     <!--  Favicons  -->
     @include('includes.favicon')
 
-    <!-- CodeFlask -->
-    {{--  @include('includes.codeflask')  --}}
-
-    <!-- Google reCAPTCHA -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-
-    <!-- Google Analytics -->
-    @include('includes.ga')
-    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
+        @include('includes.navbar')
+
         @yield('content')
     </div>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    <script>
-        function enableButton() {
-            document.getElementById('btn-submit').disabled = false;
-        }
-    </script>
 </body>
 </html>

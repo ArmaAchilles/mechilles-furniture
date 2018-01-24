@@ -1,0 +1,21 @@
+div.row-textarea {
+    margin-top: 10px;
+}
+
+@include media-breakpoint-up(sm) {
+  div.container-margin-top {
+    margin-top: 0px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+    div.container-margin-top {
+        margin-top: 3px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    div.container-margin-top {
+        margin-top: 5px;
+    }
+}
