@@ -2,7 +2,16 @@
   "name": "mechilles-furniture",
   "displayName": "Mechilles Furniture",
   "version": "1.0.0",
+  "author": {
+      "name": "CreepPork_LV"
+  },
+  "repository": {
+      "type": "GitHub",
+      "url": "https://github.com/ArmaAchilles/mechilles-furniture"
+  },
+  "license": "MIT",
   "private": true,
+  "node": "6.9.1",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
