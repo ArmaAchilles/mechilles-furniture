@@ -7,7 +7,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-xs">
-                    <img src="{{asset('images/achilles.png')}}" height="100" width="62" alt="Achilles Logo">
+                    <img src="{{asset('images/achilles.webp')}}" height="100" width="62" alt="Achilles Logo">
                 </div>
                 <div class="col-md">
                     <h1>Mechilles</h1>
